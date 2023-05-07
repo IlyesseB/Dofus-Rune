@@ -8,8 +8,6 @@ from rest_framework.reverse import reverse
 class VersionView(APIRootView):
     my_routes = {
         'dofus2': 'dofus2',
-        'retro': 'retro',
-        'touch': 'touch'
     }
 
     def get(self, request, *args, **kwargs):

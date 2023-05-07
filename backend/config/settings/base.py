@@ -113,8 +113,6 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     'users.apps.UsersConfig',
     'datacenter.dofus2.apps.Dofus2Config',
-    'datacenter.touch.apps.TouchConfig',
-    'datacenter.retro.apps.RetroConfig',
     'website.apps.WebsiteConfig',
 ]
 
